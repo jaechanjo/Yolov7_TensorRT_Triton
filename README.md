@@ -1,10 +1,15 @@
 # Yolov7_TensorRT_Triton
-  - Lightweight and optimization experiment using Nvidia TensorRT version 8.0.1 for yolov7 pytorch model
-  - Deploy yolov7 tensorrt model on 21.08 Triton Server
+  - yolov7 pytorch 모델에 대해 Nvidia TensorRT 버전 8.0.1을 사용한 경량화 및 최적화 실험이다.
+  - 21.08 Triton 서버에 yolov7 tensorrt 모델 배포했다.
+  - Project로 CCTV 비정상 행동 중 실신 행동을 탐지하는 주제를 진행했다.
 
 ## Performance
 
-![Performance](docs/images/Performance)
+**94.4 infer/sec(16 concurrency)**
+
+![Performance](https://github.com/jaechanjo/Yolov7_TensorRT_Triton/blob/main/docs/images/Performace.png?raw=true)
+
+> 배치 1로 16개 concurrency가, triton dynamic batch 덕분에, batch 16으로 실행하는 것과 동일하다.
 
 ## Project Introduction
 
@@ -21,14 +26,14 @@
   
     - Triton Server 기준 94.4 infer/sec(16 concurrency)
 
-![Pipeline](docs/images/Pipeline)
+![Pipeline](https://github.com/jaechanjo/Yolov7_TensorRT_Triton/blob/main/docs/images/Pipeline.PNG?raw=true)
 
-![Story](docs/images/Story)
+![Story](https://github.com/jaechanjo/Yolov7_TensorRT_Triton/blob/main/docs/images/Story.PNG?raw=true)
 
-![Example](docs/images/Example)
+![Example](https://github.com/jaechanjo/Yolov7_TensorRT_Triton/blob/main/docs/images/Example.PNG?raw=true)
 
 ## How to Inference
 
 더 자세한 실행 방법은 아래의 PPT 문서를 참고하세요.
 
-[CCTV Anomaly Detection Real-time Event Detection System.ppt]()
+[CCTV Anomaly Detection Real-time Event Detection System.ppt](https://docs.google.com/presentation/d/1E9KGdQXuajokeMLN4Dxw03gbV-r5t61S/edit?usp=share_link&ouid=103911635844928177145&rtpof=true&sd=true)
