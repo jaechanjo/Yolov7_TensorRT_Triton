@@ -34,6 +34,4 @@
 
 ## How to Inference
 
-더 자세한 실행 방법은 아래의 PPT 문서를 참고하세요.
-
-[CCTV Anomaly Detection Real-time Event Detection System.ppt](https://docs.google.com/presentation/d/1E9KGdQXuajokeMLN4Dxw03gbV-r5t61S/edit?usp=share_link&ouid=103911635844928177145&rtpof=true&sd=true)
+더 자세한 실행 방법은 다음의 [PPT](https://drive.google.com/file/d/10lXwgwR-QrleC1RGkFpeepzrdf8dZWNA/view?usp=drive_link) 문서를 참고하세요.
